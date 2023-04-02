@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <link rel="icon" type="image/svg" href="bolt-solid.svg">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="title">
+        <h2 style="padding: 20px;">about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, cumque.</p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="about picture">
+        </article>
+        <article class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <article class="about-content">
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At alias quos accusantium porro reiciendis enim doloremque amet repellat fugiat optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam minima ex, reprehenderit non hic animi eum molestias delectus unde?</p>
+            </div>
+  
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At alias quos accusantium porro reiciendis enim doloremque amet repellat fugiat optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam minima ex, reprehenderit non hic animi eum molestias delectus unde?</p>
+            </div>
+  
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At alias quos accusantium porro reiciendis enim doloremque amet repellat fugiat optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam minima ex, reprehenderit non hic animi eum molestias delectus unde?</p>
+            </div>
+          </article>
+        </article>
+
+        
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
