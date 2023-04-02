@@ -7,4 +7,4 @@ HTML & CSS
 
 # Link to the website
 
-[Welcome to the Fandom](https://aditi002-holo.github.io/oikawa-tooru/)
+[Welcome to the Fandom](https://aditi002-holo.github.io/webdev-foundations-practice/oikawa-tooru)

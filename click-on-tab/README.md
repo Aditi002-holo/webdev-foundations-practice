@@ -10,5 +10,5 @@ Navigating through different tabs
 
 ## Solution URL
 
-- [click-on-tab](https://aditi002-holo.github.io/click-on-tab/)
+- [click-on-tab](https://aditi002-holo.github.io/webdev-foundations-practice/click-on-tab)
 
